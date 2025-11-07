@@ -1,0 +1,87 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+header h1{
+    font-family: Bungee;
+    color: #fff;
+}
+
+.section-title{
+    font-family: Bungee;
+    color: #fff;
+    background-color: #182c61;
+}
+
+.title{
+    font-family: Bungee;
+    color: #182c61;
+    border-bottom: 2px solid #3564ca;
+}
+
+.text-colored{
+    color: #182c61;
+}
+
+
+#header{
+    background-color: #182c61;
+}
+
+#header .nav .nav-link.active{
+    background-color: #fff;
+    color: #182c61;
+}
+
+#header .nav .nav-link,
+#header h1{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.carousel-item img{
+    height: 800px;
+}
+
+.produto:hover{
+    box-shadow: 0 0 10px rgba(81, 128, 228, 0.2);
+    border: 1px solid #3564ca;
+    border-radius: 4px;
+}
+
+#mensagem{
+    resize: none;
+}
+
+#contato form button{
+    background-color: #182c61;
+    color: #fff;
+
+    &:hover{
+        background-color: #3564ca;
+    }
+}
+
+.social-links li{
+    list-style: none;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #182c61;
+}
+
+footer{
+    background-color: #182c61;
+    color: #fff;
+}
+
+
+@media (max-width:767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
